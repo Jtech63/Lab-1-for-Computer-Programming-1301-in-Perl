@@ -1,0 +1,42 @@
+#Pseudocode
+#prompt user for first name
+#prompt user for last name
+#prompt user for street address
+#prompt user for city they live in
+#prompt user for the state they live in
+#prompt for zip code
+#print first and last name
+#print street address,city,state, zip code on separate lines
+#print Exit program
+#orginal code written 2/12/2018
+
+print "Please enter your first name: \n" ;
+$first = <STDIN>;
+chomp $first;
+
+print "Please enter your last name: \n" ;
+$last = <STDIN>;
+chomp $last;
+
+print "Please enter your street address: \n" ;
+$street = <STDIN>;
+chomp $street;
+
+print "Please enter your city: \n" ;
+$city = <STDIN>;
+chomp $city ;
+
+print "Please enter state you live in: \n" ;
+$state = <STDIN>;
+chomp $state ;
+
+print "Please enter your zip code: \n" ;
+$zip = <STDIN>;
+chomp $zip ;
+
+
+print "Hello $first $last \n";
+
+print "Your address is:\n$street\n$city\n$state\n$zip\n" ;
+
+exit 0 ;
